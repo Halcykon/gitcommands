@@ -1,0 +1,18 @@
+Git commands
+Committing app
+	git init
+	git add .
+	git commit -m "Initial commit"
+
+Deploying app
+	git push
+	git push heroku
+	heroku run rake db:migrat
+
+For the first time:
+	git remote add origin <address>
+	git push -u origin master
+
+	heroku create
+	git push heroku master
+	heroku run rake db:migrate
