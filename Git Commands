@@ -7,7 +7,7 @@ Committing app
 Deploying app
 	git push
 	git push heroku
-	heroku run rake db:migrat
+	heroku run rake db:migrate
 
 For the first time:
 	git remote add origin <address>
